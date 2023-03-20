@@ -107,17 +107,14 @@ nav {
 }
 
 .cell {
-    flex-basis: 33.3333%;
-    padding: 0 .5rem 1rem;
+    flex-basis: calc(33.3333% - 1rem);
+    margin: 0 .5rem 1rem;
+    border-radius: 15px;
+    background-color: #B5DDFF;
 }
 
 .cell-hero {
-    flex-basis: 66.6666%;
-}
-
-.cell .content {
-    border-radius: 15px;
-    background-color: #B5DDFF;
+    flex-basis: calc(66.6666% - 1rem);
 }
 
 .cell-hero .content {
@@ -170,6 +167,5 @@ nav {
 }
 
 .center p {
-    padding-inline: 20px
-    ;
+    padding-inline: 20px;
 }

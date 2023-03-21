@@ -77,32 +77,6 @@ nav {
     font-size: 2rem;
 }
 
-@media (max-width: 950px) {
-    .nav-links {
-        display: none;
-    }
-
-    .hamburger {
-        display: block;
-    }
-
-    .nav-logo {
-        padding-left: 1.5rem;
-    }
-
-    .cell-hero .content {
-        flex-direction: column;
-    }
-
-    .cell-hero .image {
-        width: 50%;
-    }
-
-    .cell-hero .image img {
-        margin-top: -90px;
-    }
-}
-
 /* end nav  */
 
 .header-container {

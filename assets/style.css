@@ -92,6 +92,9 @@ nav {
 
     .cell-hero .content {
         flex-direction: column;
+    }
+
+    .cell-hero .image {
         width: 50%;
     }
 
@@ -116,14 +119,14 @@ nav {
 }
 
 .cell {
-    flex-basis: calc(33.3333% - 1rem);
+    width: calc(33.3333% - 1rem);
     margin: 0 .5rem 1rem;
     border-radius: 15px;
     background-color: #B5DDFF;
 }
 
 .cell-hero {
-    flex-basis: calc(66.6666% - 1rem);
+    width: calc(66.6666% - 1rem);
 }
 
 .cell-hero .content {
@@ -191,13 +194,15 @@ header {
 
 .small-container {
     padding-top: 135px;
+    padding-bottom: 135px;
     max-width: 890px;
     margin-inline: auto;
     display: flex;
+    gap: 5%;
 }
 
 .planning-left {
-    width: calc(100% / 2);
+    width: 50%;
     color: white;
 }
 
@@ -218,13 +223,82 @@ header {
 }
 
 .planning-right {
-    width: calc(100% / 2);
-    display: flex;
-    align-items: flex-end;
-    justify-content: end;
-    flex-direction: column;
+    width: 40%;
+    margin-top: 30%;
+    padding-bottom: 2rem;
+    text-align: center;
+    border-radius: 20%;
+    background-color: white;
 }
 
 .planning-right img {
-    width: 60%;
+    width: 80%;
+    padding: 0 1.5rem 2rem;
+}
+
+.planning-right p {
+    padding-top: 1.5rem;
+    padding-inline: 3rem;
+}
+
+.fa-sm {
+    margin-top: .5rem;
+    padding: 1.5rem 1rem;
+    font-size: 1.4rem;
+    background-color: #9792E4;
+    border-radius: 60%;
+}
+
+/* start section partners */
+
+.partners {
+    max-width: 1150px;
+    margin-inline: auto;
+}
+
+.up-title {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.partners h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #9792E4;
+    padding-bottom: 2rem;
+}
+
+.down-title {
+    text-align: center;
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+}
+
+.container-card {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+    border-radius: 3rem;
+    background-color: #9792E4;
+}
+
+.container-card .img-card {
+    display: flex;    padding-left: 1.5rem;
+}
+
+.partners .img-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 300px;
+    flex: 0 0 auto;
+}
+
+.text-card {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-inline: 2.5rem;
 }

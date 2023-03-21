@@ -78,10 +78,26 @@
     }
 
     .container-partners .text-card {
+        justify-content: center;
         text-align: center;
+        padding-top: .5rem;
     }
 
-    .container-partners .text-card .name {
-        text-align: center;
+    .benefits .container-card .card {
+        width: 100%;
+        margin-inline: 2.5rem;
+    }
+
+    .container-about-us {
+        display: block;
+    }
+
+    .container-about-us .text-about-us {
+        width: 100%;
+    }
+
+    .container-about-us .img-about-us {
+        width: 100%;
     }
 }
+

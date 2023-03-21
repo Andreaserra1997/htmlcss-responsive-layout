@@ -24,8 +24,17 @@
     }
 }
 
-@media (max-width: 500) {
-    .cell-hero .content {
-        display: block;
+@media (max-width: 500px) {
+    .cells {
+    display: block;
+    padding-inline: 1rem;
+    }
+
+    .cell-hero {
+        width: 100%;
+    }
+
+    .cell {
+        width: 100%;
     }
 }

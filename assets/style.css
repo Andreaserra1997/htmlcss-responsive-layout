@@ -254,7 +254,7 @@ header {
     padding-bottom: 2rem;
 }
 
-.container-card {
+.container-partners {
     padding-top: 2rem;
     padding-bottom: 2rem;
     margin-bottom: 3rem;
@@ -262,7 +262,7 @@ header {
     background-color: #9792E4;
 }
 
-.container-card .img-card {
+.container-partners .img-card {
     display: flex;    padding-left: 1.5rem;
 }
 

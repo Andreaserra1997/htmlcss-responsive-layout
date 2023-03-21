@@ -37,11 +37,39 @@
 
     .cell {
         width: 100%;
-        margin-inline: -.5rem;
+        margin-inline: 0;
     }
 
     .cell .image {
         display: flex;
         align-self: center;
+    }
+}
+
+@media (max-width: 810px) {
+    .small-container {
+        display: block;
+        margin-inline: 2rem;
+    }
+
+    .planning-left {
+        width: 100%;
+    }
+
+    .planning-right {
+        width: 100%;
+        margin-inline: 0;
+    }
+
+    .container-partners {
+        margin-inline: 2rem;
+    }
+
+    .container-card .card {
+        width: calc(50% - 2rem);
+    }
+
+    .container-about-us {
+        margin-inline: 2rem;
     }
 }

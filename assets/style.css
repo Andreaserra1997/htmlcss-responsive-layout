@@ -188,6 +188,9 @@ header {
 }
 
 /* end header */
+
+/* start main */
+
 .container-violet {
     background-color: #9792E4;
 }
@@ -308,6 +311,10 @@ header {
 
 /* end section card */
 
+.benefits {
+    padding-bottom: 1.5rem;
+}
+
 .benefits h2 {
     text-align: center;
     font-size: 2rem;
@@ -357,4 +364,123 @@ header {
     padding: .5rem 3rem;
     border-radius: 1.5rem;
     white-space: nowrap;
+}
+
+/* end benefits */
+
+.container-about-us {
+    max-width: 1150px;
+    margin-inline: auto;
+    display: flex;
+    padding-bottom: 4rem;
+}
+
+.text-about-us {
+    width: 70%;
+}
+
+.container-about-us h2 {
+    padding: 5rem 0 2rem;
+    font-size: 3rem;
+    color: #9792E4;
+}
+
+.container-about-us p {
+    width: 90%;
+    line-height: 2rem;
+    padding-bottom: 2rem;
+}
+
+.img-about-us {
+    width: 30%;
+    padding-top: 5rem;
+}
+
+.img-about-us img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 300px;
+}
+
+.img-about-us p {
+    padding-top: 1rem;
+    font-size: 1.6rem;
+    color: #9792E4;
+    width: 65%;
+    font-weight: bold;
+}
+
+/* start free */
+
+.free {
+    max-width: 590px;
+    margin-inline: auto;
+    text-align: center;
+}
+
+.free h4 {
+    padding-top: 4rem;
+    font-weight: 300;
+    color: #D4D3F4;
+}
+
+.free h3 {
+    padding-top: 2rem;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.free h2 {
+    padding-top: 2rem;
+    font-size: 5rem;
+    color: #FDC15F;
+}
+
+.free p {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.btn-white {
+    padding: 1.7rem 4rem;
+    background-color: white;
+    color: #9792E4;
+    text-decoration: none;
+    border-radius: 6rem;
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.copyright {
+    margin-top: 1.5rem;
+}
+
+/* end main */
+
+/* start footer */
+
+footer {
+    background-color: #333333;
+}
+
+.footer-container {
+    max-width: 430px;
+    margin-inline: auto;
+    padding-bottom: 2rem;
+}
+
+.footer-container p {
+    text-align: center;
+    padding-top: 2rem;
+    color: white;
+}
+
+.footer-container .boolean-link {
+    padding-top: 3rem;
+}
+
+.boolean-link a {
+    color: #66638D;
 }

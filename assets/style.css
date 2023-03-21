@@ -254,6 +254,7 @@ header {
 .partners {
     max-width: 1150px;
     margin-inline: auto;
+    padding-bottom: 3rem;
 }
 
 .up-title {
@@ -298,7 +299,62 @@ header {
 
 .text-card {
     display: flex;
-    align-items: center;
+    align-content: center;
+    gap: 20px;
     flex-wrap: wrap;
     padding-inline: 2.5rem;
+    color: white;
+}
+
+/* end section card */
+
+.benefits h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 3rem 0 3rem;
+    color: white;
+}
+
+.benefits .container-card {
+    display: flex;
+    max-width: 1150px;
+    margin-inline: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.benefits .container-card .card {
+    width: calc((100% / 3) - 2rem);
+    display: flex;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.text-benefits {
+    padding: 2.5rem 1.5rem 1.5rem;
+    color: #9792E4;
+}
+
+.text-benefits h3 {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+.text-benefits h4 {
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+}
+
+.text-benefits p {
+    padding-bottom: 2rem;
+}
+
+.btn-violet {
+    background-color: #9792E4;
+    color: white;
+    text-decoration: none;
+    padding: .5rem 3rem;
+    border-radius: 1.5rem;
+    white-space: nowrap;
 }

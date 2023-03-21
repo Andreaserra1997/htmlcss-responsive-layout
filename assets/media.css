@@ -1,4 +1,5 @@
-@media (max-width: 950px) {
+@media (max-width: 810px) {
+
     .nav-links {
         display: none;
     }
@@ -22,31 +23,7 @@
     .cell-hero .image img {
         margin-top: -90px;
     }
-}
 
-@media (max-width: 500px) {
-    .cells {
-    display: block;
-    margin-inline: 2rem;
-    }
-
-    .cell-hero {
-        width: 100%;
-        text-align: center;
-    }
-
-    .cell {
-        width: 100%;
-        margin-inline: 0;
-    }
-
-    .cell .image {
-        display: flex;
-        align-self: center;
-    }
-}
-
-@media (max-width: 810px) {
     .small-container {
         display: block;
         margin-inline: 2rem;
@@ -65,11 +42,46 @@
         margin-inline: 2rem;
     }
 
-    .container-card .card {
+    .benefits .container-card .card {
         width: calc(50% - 2rem);
     }
 
     .container-about-us {
         margin-inline: 2rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .cells {
+        display: block;
+        margin-inline: 2rem;
+    }
+
+    .cell-hero {
+        width: 100%;
+        text-align: center;
+    }
+
+    .cell {
+        width: 100%;
+        margin-inline: 0;
+    }
+
+    .cell .image {
+        display: flex;
+        align-self: center;
+    }
+
+    .container-partners .img-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-partners .text-card {
+        text-align: center;
+    }
+
+    .container-partners .text-card .name {
+        text-align: center;
     }
 }

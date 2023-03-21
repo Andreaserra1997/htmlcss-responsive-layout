@@ -32,9 +32,16 @@
 
     .cell-hero {
         width: 100%;
+        text-align: center;
     }
 
     .cell {
         width: 100%;
+        margin-inline: -.5rem;
+    }
+
+    .cell .image {
+        display: flex;
+        align-self: center;
     }
 }

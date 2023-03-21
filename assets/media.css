@@ -27,7 +27,7 @@
 @media (max-width: 500px) {
     .cells {
     display: block;
-    padding-inline: 1rem;
+    margin-inline: 2rem;
     }
 
     .cell-hero {
